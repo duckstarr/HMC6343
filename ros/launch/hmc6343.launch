@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <arg name="device" default="/dev/i2c-1" />
+  <arg name="calibration" default="false" />
+
+  <!-- Launch main node. -->
+  <node pkg="hmc6343_ros" type="hmc6343_ros" name="hmc6343_ros" output="screen" >
+    <param name="device" value="$(arg device)" />
+    <param name="calibration" type="bool" value="$(arg calibration)" />
+  </node>
+
+</launch>

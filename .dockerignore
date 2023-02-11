@@ -1,0 +1,10 @@
+# whitelist: ignore everything first!
+*
+
+# Files included to Docker COPY . .
+!qemu*
+!entrypoint.sh
+!CMakeLists.txt
+!package.xml
+!ros/
+!source/

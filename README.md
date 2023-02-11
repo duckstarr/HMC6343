@@ -39,4 +39,3 @@ This project contains C++ examples that demonstrate how to interface with the HM
 
 ~< name >/device (string, default: /dev/i2c-1)
 - The aboslute path to HMC6343 device.
-# HMC6343
